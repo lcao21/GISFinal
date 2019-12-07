@@ -1,5 +1,4 @@
-# GISFinal
-Measuring the relationship between street light outages and crimes in Chicago in 2016 
+# GIS Final: Streetlight Outages and Crime Rate in Chicago in 2016
 
 The United States incarcerates more people than any other country and relatedly, is ranked 49th in the world for crime rate. Though mass incarceration and criminal justice reform are currently very costly, there may be low-cost interventions that can help decrease crime rate in American cities. We can apply the nudge theory, a theory popularized by scholars Richard Thaler and Cass Sunstein, to positively change crime trends. As they describe it in Nudge: “A nudge…is any aspect of the choice architecture that alters people’s behavior in a predictable way…the intervention must be easy and cheap to avoid” (Thaler and Sunstein, 6). Thus, we can look at making small changes to the design of public spaces, and in this case, the use of streetlights. Streetlights, especially night lighting, can potentially reduce crime rate and improve perceived safety among pedestrians. In this project, I will examine the relationship between public lighting and crime rates in Chicago, a city with a crime rate higher than the national average and known to be the most gang-infested city in the US. The main questions I will try to answer are:
 
@@ -22,4 +21,4 @@ Beyond streetlight outages, there may be many more factors that affect crime rat
 4)	The rate of crimes committed during an outage with respect to the outage time period
 5)	The rate of crimes committed pre-/post-outage with respect to the non-outage time period
 
-I calculated each metric using Python in a Jupyter notebook, as it was faster and simpler than doing so in QGIS. I then used the cleaned data to map the results and comparisons in QGIS. 
+After calculting these metrics using Python, I mapped the results and comparisons in QGIS. 
