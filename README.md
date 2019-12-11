@@ -9,10 +9,10 @@ The United States incarcerates more people than any other country and relatedly,
 Previous research on the relationship between streetlights and crime rate has produced mixed conclusions. This past April, researchers from UChicago Urban Labs released results from their randomized experiment on street lighting in New York City and found that lighting can reduce outdoor nighttime index crimes by 36% and overall index crimes by 4% in affected communities. A study in 2000 conducted by the Illinois Criminal Justice Information Authority, however, found that reported offenses actually increased after installing streetlights in Chicago. Researchers from another study in England and Wales found no evidence in association between streetlighting and the aggregate count of crime. While most of previous research including the above three focused on statistical analysis, I will be using GIS to bring forward new findings.
 
 I use data from the City of Chicago Data Portal for both crime and streetlight outages, specifically the following datasets:
-1. Crimes – 2001 to present
-2. 311 Service Requests – Street Lights – All Out – Historical
-3. 311 Service Requests – Street Lights – One Out – Historical
-4.	Boundaries – Wards (2015-)
+1. Crimes – 2001 to present (https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
+2. 311 Service Requests – Street Lights – All Out – Historical (https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Street-Lights-All-Out-Histori/zuxi-7xem)
+3. 311 Service Requests – Street Lights – One Out – Historical (https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Street-Lights-One-Out-Histori/3aav-uy2v)
+4.	Boundaries – Wards (2015-) (https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2015-/sp34-6z76)
 
 I focused on outages and crimes that were reported in 2016 because the homicide rate increased dramatically in that year after remaining steady between 2010 and 2015; in fact, it because the highest homicide rate in Chicago since the mid-1990s. Since crimes in outdoor locations are more likely to have been impacted by streetlight outages, I examined crimes committed on location types like street and sidewalk. I further narrowed down the crime types to assault, homicide, motor vehicle theft, and robbery, as these are not only some of the most prevalent crimes in Chicago but also ones that could plausibly be affected by outages (and occurred outdoors). 
 
